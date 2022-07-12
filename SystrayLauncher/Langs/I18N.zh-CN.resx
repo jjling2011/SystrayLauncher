@@ -129,6 +129,9 @@
   <data name="Message" xml:space="preserve">
     <value>信息</value>
   </data>
+  <data name="Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
   <data name="OpenShortcutsFolder" xml:space="preserve">
     <value>打开shortcuts文件夹</value>
   </data>

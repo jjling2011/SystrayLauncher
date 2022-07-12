@@ -146,6 +146,15 @@ namespace SystrayLauncher.Services
                 {
                     RefreshMenu();
                 }),
+
+                new ToolStripMenuItem("GitHub",null,(s,e)=>{
+                    var gh = Properties.Resources.GitHub;
+                    var msg = $"{I18N.Open}: {gh}";
+                    if (Utils.Misc.Confirm(msg))
+                    {
+                        Process.Start(gh);
+                    }
+                }),
             });
 
             menu.DropDownItems.Add(new ToolStripSeparator());

@@ -100,6 +100,15 @@ namespace SystrayLauncher.Properties {
         }
         
         /// <summary>
+        ///   查找类似 https://github.com/jjling2011/SystrayLauncher 的本地化字符串。
+        /// </summary>
+        internal static string GitHub {
+            get {
+                return ResourceManager.GetString("GitHub", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
         internal static System.Drawing.Bitmap Property_16x {

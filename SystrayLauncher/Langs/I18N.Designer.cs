@@ -97,6 +97,15 @@ namespace SystrayLauncher.Langs {
         }
         
         /// <summary>
+        ///   查找类似 Open 的本地化字符串。
+        /// </summary>
+        internal static string Open {
+            get {
+                return ResourceManager.GetString("Open", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Open shortcuts folder 的本地化字符串。
         /// </summary>
         internal static string OpenShortcutsFolder {
