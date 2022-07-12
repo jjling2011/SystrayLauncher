@@ -10,10 +10,7 @@ namespace SystrayLauncher
         bool isDisposed = false;
         List<IDisposable> services = new List<IDisposable>();
 
-        public Launcher()
-        {
-
-        }
+        public Launcher() { }
 
         #region public methods
         public void Dispose()
@@ -38,10 +35,6 @@ namespace SystrayLauncher
 
             nis.Init();
         }
-
-
         #endregion
-
-
     }
 }

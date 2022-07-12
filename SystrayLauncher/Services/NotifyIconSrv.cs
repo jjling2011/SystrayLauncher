@@ -17,10 +17,7 @@ namespace SystrayLauncher.Services
         bool isDisposed = false;
         public static NotifyIconSrv Instance { get; private set; }
 
-        public NotifyIconSrv()
-        {
-
-        }
+        public NotifyIconSrv() { }
 
         #region public methods
         public void Init()
@@ -93,7 +90,6 @@ namespace SystrayLauncher.Services
             return r.ToArray();
         }
 
-
         void GenerateShortCutMenu(ContextMenuStrip root)
         {
             var items = root.Items;
@@ -119,7 +115,6 @@ namespace SystrayLauncher.Services
 
                 BalloonTipText = title,
                 ContextMenuStrip = new ContextMenuStrip(),
-
             };
 
             return ni;
@@ -140,7 +135,6 @@ namespace SystrayLauncher.Services
                 {
                     Process.Start(@"shell:startup");
                 }),
-
 
                 new ToolStripMenuItem(I18N.RefreshMenu, Properties.Resources.QuickRefresh_16x, (s, e) =>
                 {
