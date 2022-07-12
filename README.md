@@ -3,6 +3,9 @@
 
 ![屏幕截图](https://raw.githubusercontent.com/jjling2011/SystrayLauncher/main/screenshots/systray.png)
 
+## 下载
+[https://github.com/jjling2011/SystrayLauncher/releases/latest](https://github.com/jjling2011/SystrayLauncher/releases/latest)  
+
 ## 用法
 把要启动的程序的快捷方式放入shortcuts目录中，然后启动程序。  
 程序较多时可以创建文件夹，分类存放。  
