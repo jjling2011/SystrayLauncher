@@ -7,8 +7,8 @@
 [https://github.com/jjling2011/SystrayLauncher/releases/latest](https://github.com/jjling2011/SystrayLauncher/releases/latest)  
 
 ## 用法
-把要启动的程序的快捷方式放入shortcuts目录中，然后启动程序。  
+把要常用程序的快捷方式放入shortcuts目录中，然后运行本软件。  
 程序较多时可以创建文件夹，分类存放。  
 
 ## 开机启动
-点击"工具"-"打开自启动文件夹"，然后拖个快捷方式进去即可。  
+点击"工具"-"打开自启动文件夹"，拖个快捷方式进去即可。  
