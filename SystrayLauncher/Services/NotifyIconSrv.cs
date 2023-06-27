@@ -117,7 +117,19 @@ namespace SystrayLauncher.Services
                 ContextMenuStrip = new ContextMenuStrip(),
             };
 
+            FixScaling(ni.ContextMenuStrip);
             return ni;
+        }
+
+        void FixScaling(ContextMenuStrip menu)
+        {
+            var s = Utils.Misc.CalcScreenScaling();
+            if (s > 1)
+            {
+                var x = (int)(menu.ImageScalingSize.Width * s);
+                var y = (int)(menu.ImageScalingSize.Height * s);
+                menu.ImageScalingSize = new Size(x, y);
+            }
         }
 
         void AppendBasicMenu(ContextMenuStrip root)
