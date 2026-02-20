@@ -11,7 +11,7 @@
 程序较多时可以创建文件夹，分类存放。  
 
 ## 特殊用法
-需要管理员权限时，比如修改“hosts”，可以在把快捷方式的“目标”修改为：
+需要管理员权限时，比如修改“hosts”，先把快捷方式的“目标”修改为：
 ```
 %windir%\system32\notepad.exe %SystemRoot%\System32\drivers\etc\hosts
 ```
